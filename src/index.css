@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Brandon';
+    src: url('fonts/brandon-grotesque-light.otf'), url('fonts/brandon-grotesque-light.otf') format('svg');
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Brandon';
+    src: url('fonts/brandon-grotesque-regular.otf'), url('fonts/brandon-grotesque-regular.otf') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Brandon';
+    src: url('fonts/brandon-grotesque-black.otf'), url('fonts/brandon-grotesque-black.otf') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+html, body {
+  font-family: Brandon;
+  font-weight:300;
+  margin:0 0;
+  background-color: #E9EDE9;
+}
+svg {
+  background-color: white;
+}
+.svg-clear {
+  background-color:transparent!important;
+}
+.tooltip {
+  top:0;
+  left:100;
+  background-color:#d3d3d3;
+  border-radius:3px;
+  max-width:240px;
+  padding:8px 8px;
+/*  width:200px;*/
+}
+/*body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}*/
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.options-container {
+  margin-top:10px;
+}
+.input-container {
+  background-color: white;
+  border-radius:5px;
+  margin-right:8px;
+  padding:4px 4px;
+}
+.names-inner {
+  padding-left:0!important;
+}
+.names-inner div {
+  margin-right:4px;
+  margin-bottom:4px;
+}
+.names-inner div span {
+  color:white!important;
+  pointer-events:none;
+}
+.names-inner {
+  padding:10px 10px;
+}
+.bg-custom-orange-200 {
+  background-color:#DAA520;
+}
+.bg-custom-red-200 {
+  background-color:#c2452d;
+}
+.bg-custom-brown-200 {
+  background-color:#C786BA;
+}
+.bg-custom-blue-200 {
+  background-color:#77AAB6;
+}
+.input-text {
+  color:#c0c0c0;
+  font-weight:500;
+  text-transform: uppercase;
+}
+
+.dropdown-container {
+  display:block;
+  background-color: white;
+  padding:4px 4px;
+  border-radius:5px;
+  margin-right:8px;
+}
